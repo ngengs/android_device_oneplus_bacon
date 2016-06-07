@@ -21,7 +21,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PURE @string/weeklies"
+        android:text="@string/weeklies"
         android:id="@+id/button"
         android:layout_marginTop="31dp"
         android:layout_below="@+id/textView"
