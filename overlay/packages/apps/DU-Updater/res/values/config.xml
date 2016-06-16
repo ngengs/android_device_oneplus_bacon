@@ -8,9 +8,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- DU-Updater Config Strings -->
-    <string name="conf_server_url_main" translatable="false">https://raw.githubusercontent.com</string>
-    <string name="conf_server_url_path" translatable="false">/ngengs/DU-Updater-API/du-master</string>
+    <string name="conf_server_url_main" translatable="false">http://www.ngengs.com/</string>
+    <string name="conf_server_url_path" translatable="false">api/dirty_unicorns/json</string>
     <string name="conf_server_url_separator_device" translatable="false">/</string>
     <string name="conf_server_url_separator_folder" translatable="false">/</string>
-    <string name="conf_server_url_api_file" translatable="false">/api.json</string>
+    <string name="conf_server_url_api_file" translatable="false"></string>
 </resources>
