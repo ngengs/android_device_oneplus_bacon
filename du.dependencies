@@ -18,5 +18,10 @@
     "repository":   "DirtyUnicorns/android_vendor_qcom_opensource_dataservices",
     "target_path":  "vendor/qcom/opensource/dataservices",
     "branch":       "m-caf"
+   },
+   {
+    "repository":   "ngengs/android_packages_apps_Snap",
+    "target_path":  "packages/apps/Snap",
+    "branch":       "m-caf"
    }
 ]
