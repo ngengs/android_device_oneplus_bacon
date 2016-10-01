@@ -113,8 +113,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:system/etc/sec_config
 
 # Keystore
-PRODUCT_PACKAGES += \
-    keystore.msm8974
+#PRODUCT_PACKAGES += \
+#    keystore.msm8974
 
 # Lights
 PRODUCT_PACKAGES += \
@@ -220,6 +220,10 @@ PRODUCT_PACKAGES += \
 # Recovery
 PRODUCT_EXTRA_RECOVERY_KEYS += \
     $(LOCAL_PATH)/bacon
+
+# Telephony-ext
+PRODUCT_PACKAGES += telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
 
 # Thermal config
 PRODUCT_COPY_FILES += \
