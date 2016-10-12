@@ -70,7 +70,8 @@ PRODUCT_PACKAGES += \
     Snap
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    media.stagefright.codecremote=false
+    media.stagefright.codecremote=false \
+    media.stagefright.legacyencoder=true
 
 # Charger
 PRODUCT_PACKAGES += \
