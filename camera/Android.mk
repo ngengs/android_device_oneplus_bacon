@@ -3,6 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := camera.bacon
 LOCAL_SRC_FILES := CameraWrapper.cpp
+LOCAL_CLANG := false
 
 LOCAL_C_INCLUDES := \
     system/media/camera/include
