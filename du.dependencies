@@ -1,10 +1,22 @@
 [
   {
-    "repository": "android_device_oppo_common",
-    "target_path": "device/oppo/common"
+    "repository":   "CyanogenMod/android_device_oppo_common",
+    "target_path":  "device/oppo/common",
+    "branch":       "cm-14.1"
   },
   {
-    "repository": "android_kernel_oneplus_msm8974",
-    "target_path": "kernel/oneplus/msm8974"
-  }
+    "repository":   "ngengs/android_kernel_oneplus_msm8974",
+    "target_path":  "kernel/oneplus/msm8974",
+    "branch":       "n-caf-broken"
+  },
+  {
+    "repository":   "BrokenROM/android_vendor_oneplus",
+    "target_path":  "vendor/oneplus",
+    "branch":       "n7.0"
+   },
+   {
+    "repository":   "DirtyUnicorns/android_vendor_qcom_opensource_dataservices",
+    "target_path":  "vendor/qcom/opensource/dataservices",
+    "branch":       "n-caf"
+},
 ]
